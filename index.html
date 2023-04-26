@@ -1,61 +1,67 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Mon portfolio</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Mon portfolio</h1>
-      <nav>
-        <ul>
-          <li><a href="#presentation">Présentation</a></li>
-          <li><a href="#projets">Projets</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    
-    <main>
-      <section id="presentation">
-        <h2>Présentation</h2>
-        <p>Bienvenue sur mon portfolio. Je suis un étudiant passionné de photographie, j'aimerais en faire mon métier.</p>
-      </section>
-      
-      <section id="projets">
-        <h2>Projets</h2>
-        <ul>
-          <li>
-            <h3>Projet 1</h3>
-            <p>Description du projet 1</p>
-          </li>
-          <li>
-            <h3>Projet 2</h3>
-            <p>Description du projet 2</p>
-          </li>
-        </ul>
-      </section>
-      
-      <section id="contact">
-        <h2>Contact</h2>
-        <form>
-          <label for="nom">Nom :</label>
-          <input type="text" id="nom" name="nom" required>
-          
-          <label for="email">Email :</label>
-          <input type="email" id="email" name="email" required>
-          
-          <label for="message">Message :</label>
-          <textarea id="message" name="message" required></textarea>
-          
-          <button type="submit">Envoyer</button>
-        </form>
-      </section>
-    </main>
-    
-    <footer>
-      <p>&copy; 2023 Mon portfolio</p>
-    </footer>
-  </body>
+<head>
+	<title>Mon portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Mon portfolio</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">À propos</a></li>
+				<li><a href="#photography">Photographie</a></li>
+				<li><a href="#web-design">Créations web</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="about">
+		<h2>À propos de moi</h2>
+		<p>Bienvenue sur mon portfolio. Je suis passionné de photographie et de création de sites web. J'aime travailler sur des projets créatifs et innovants.</p>
+	</section>
+
+	<section id="photography">
+		<h2>Photographie</h2>
+		<div class="gallery">
+			<img src="img/photo1.jpg" alt="Photo 1">
+			<img src="img/photo2.jpg" alt="Photo 2">
+			<img src="img/photo3.jpg" alt="Photo 3">
+			<img src="img/photo4.jpg" alt="Photo 4">
+			<img src="img/photo5.jpg" alt="Photo 5">
+			<img src="img/photo6.jpg" alt="Photo 6">
+		</div>
+	</section>
+
+	<section id="web-design">
+		<h2>Créations web</h2>
+		<div class="projects">
+			<div class="project">
+				<a href="http://www.example.com" target="_blank">
+					<img src="img/project1.jpg" alt="Projet 1">
+					<h3>Projet 1</h3>
+				</a>
+			</div>
+			<div class="project">
+				<a href="http://www.example.com" target="_blank">
+					<img src="img/project2.jpg" alt="Projet 2">
+					<h3>Projet 2</h3>
+				</a>
+			</div>
+			<div class="project">
+				<a href="http://www.example.com" target="_blank">
+					<img src="img/project3.jpg" alt="Projet 3">
+					<h3>Projet 3</h3>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<p>© Mon portfolio 2023. Tous droits réservés.</p>
+	</footer>
+
+</body>
 </html>
